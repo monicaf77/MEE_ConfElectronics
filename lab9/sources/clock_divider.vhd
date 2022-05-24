@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.numeric_std.ALL;
   
 entity clock_divider is
-generic(div_factor: integer :=50000)
+generic(div_factor: integer :=50000);
 port ( clk,reset: in std_logic;
 clock_out: out std_logic);
 end clock_divider;
